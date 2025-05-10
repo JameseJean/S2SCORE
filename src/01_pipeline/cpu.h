@@ -110,7 +110,7 @@ void CPU::decode() {
     id_ex_rs1_val = regs[rs1];
     id_ex_rs2_val = regs[rs2];
     id_ex_funct3 = funct3;
-    id_ex_funct7 = funct7;
+    id_ex_funct7 = funct7; 
 
     // I 型立即数提取（符号扩展）
     if (opcode == 0x13 || opcode == 0x03) {
